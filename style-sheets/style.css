@@ -5,15 +5,42 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
 *{
-    color: #636e72;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.header-section{
+body{
+    
+    background-color: #ecf0f1;
+}
+/*------------------
+ nav-bar start
+--------------------*/
+nav.nav-bar {
+    height: 146px;
+    position: relative;
+}
+.log {
+    position: absolute;
+    top: 35px;
+    left: 173px;
+}
+.inf-color-text{
+    color: #e84393;
+}
+/*------------------
+ nav-bar End
+--------------------*/
+
+
+/*------------------------
+headder section start
+-------------------------*/
+.common-section{
     height: 500px;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 h1{
     color: #555555;
@@ -45,7 +72,6 @@ p{
     background-color: #f0f0f0;
     border-radius: 180px;
     border: 2px solid #c7c5c5;
-    ;
 }
 .button a {
     text-decoration: none;
@@ -57,11 +83,53 @@ p{
     border-radius: 29px;
     position: relative;
 }
-.fa, .fas {
+.arrow {
     font-weight: 900;
     color: white;
     font-size: 20px;
     position: absolute;
     top: 14px;
     right: 30px;
+}
+/*------------------------
+ headder section end 
+ -------------------------*/
+ .popular-headder h1 {
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+}
+.popular-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.card {
+    background-color: #dcdde1;
+    width: 330px;
+    height: 435px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.card-tatile {
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+h2, h3, span, p{
+    color: #555555;
+}
+.fill{
+    color: #f1c40f;
+}
+.emty {
+    color: white;
+}
+
+.card-img img {
+    width: 300px;
+    height: 230px;
+    margin-left: 16px;
+    margin-top: 13px;
+    border-radius: 12px;
 }
