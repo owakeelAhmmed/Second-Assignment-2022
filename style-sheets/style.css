@@ -146,7 +146,7 @@ h2, h3, span, p{
 /*--------------------------- 
 contsct section start 
 -----------------------------*/
-.contsct-img img {
+.contact-img img {
     width: 380px;
     float: left;
 }
@@ -208,3 +208,35 @@ footer.common-section {
 /*---------------------
  Footer Section End 
 ---------------------*/
+
+@media only screen and (max-width:688px) {
+    .common-section{
+        width: 100%;
+    }
+    .popular-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .full-box{
+        display: flex;
+    }
+    .input-box{
+      
+    }
+    .contact-img img{
+        width: 250px;
+        margin-left: 26px;
+    }
+    .input-group{
+        width: 200px;
+        margin-left: -80px;
+    }
+    
+  
+
+
+}
