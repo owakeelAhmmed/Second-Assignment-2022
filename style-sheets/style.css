@@ -10,7 +10,6 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    
     background-color: #ecf0f1;
 }
 /*------------------
@@ -37,7 +36,6 @@ nav.nav-bar {
 headder section start
 -------------------------*/
 .common-section{
-    height: 500px;
     display: flex;
     justify-content: center;
     margin-top: 60px;
@@ -94,7 +92,12 @@ p{
 /*------------------------
  headder section end 
  -------------------------*/
- .popular-headder h1 {
+
+ 
+ /*--------------------------
+  popular card start
+------------------------- */
+.common-title h1 {
     text-align: center;
     height: 80px;
     font-size: 30px;
@@ -107,7 +110,7 @@ p{
 .card {
     background-color: #dcdde1;
     width: 330px;
-    height: 435px;
+    height: 500px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -133,3 +136,37 @@ h2, h3, span, p{
     margin-top: 13px;
     border-radius: 12px;
 }
+
+ /*--------------------------
+  popular card End
+------------------------- */
+
+
+
+/*--------------------------- 
+video section start 
+-----------------------------*/
+video {
+    width: 400px;
+    height: 226px;
+    border-radius: 30px;
+}
+.video-box-1 {
+    width: 480px;
+}
+
+.cards-detail {
+    padding: 15px;
+}
+
+.cards-detail h2 {
+    margin-bottom: 20px;
+}
+
+.cards-detail p {
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+/*--------------------------- 
+video section End 
+-----------------------------*/
