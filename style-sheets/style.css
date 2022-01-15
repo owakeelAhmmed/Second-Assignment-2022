@@ -60,9 +60,6 @@ h1{
 p{
     font-family: 'Poppins', sans-serif;
 }
-.button{
-    
-}
 #click-me:hover{
     transition: 1s;
     background-color: #6c5ce7;
