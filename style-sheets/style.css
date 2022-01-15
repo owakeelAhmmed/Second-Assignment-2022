@@ -144,29 +144,35 @@ h2, h3, span, p{
 
 
 /*--------------------------- 
-video section start 
+contsct section start 
 -----------------------------*/
-video {
-    width: 400px;
-    height: 226px;
-    border-radius: 30px;
+.contsct-img img {
+    width: 380px;
+    float: left;
 }
-.video-box-1 {
-    width: 480px;
+.input-group {
+    display: grid;
+    width: 380px;
+    padding-left: 150px;
+    padding-top: 25px;
 }
-
-.cards-detail {
-    padding: 15px;
+input.input-text{
+    background-color: #ecf0f1;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 1px solid red;
 }
-
-.cards-detail h2 {
+label {
     margin-bottom: 20px;
 }
-
-.cards-detail p {
-    line-height: 22px;
+textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
     margin-bottom: 20px;
 }
 /*--------------------------- 
-video section End 
+contsct section End 
 -----------------------------*/
