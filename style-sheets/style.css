@@ -12,6 +12,7 @@
 body{
     background-color: #ecf0f1;
 }
+
 /*------------------
  nav-bar start
 --------------------*/
@@ -39,6 +40,7 @@ headder section start
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    width: 100%;
 }
 h1{
     color: #555555;
@@ -187,7 +189,7 @@ footer.common-section {
 .footer-title {
     margin-top: 30px;
 }
-.container-box h2, h3, p {
+.footer-title-2 {
     color: #f0f0f0;
     text-align: center;
 }
@@ -209,6 +211,9 @@ footer.common-section {
  Footer Section End 
 ---------------------*/
 
+/*---------------------
+ Media Query Start 
+-----------------------*/
 @media only screen and (max-width:688px) {
     .common-section{
         width: 100%;
@@ -216,7 +221,7 @@ footer.common-section {
     .log h1 {
         margin-left: -124px;
     }
-   
+    
     .container-detail{
         width: 300px;
         display: flex;
@@ -239,9 +244,7 @@ footer.common-section {
     .full-box{
         display: flex;
     }
-    .input-box{
-      
-    }
+    
     .contact-img img{
         width: 250px;
         margin-left: 26px;
@@ -250,9 +253,34 @@ footer.common-section {
         width: 200px;
         margin-left: -80px;
     }
-
-    
-  
-
-
 }
+
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    
+    .common-section{
+        width: 100%;
+    }
+    .log h1 {
+        margin-left: 146px;
+    }
+    .popular-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-img img{
+        width: 300px;
+        
+    }
+    .input-group{
+        width: 250px;
+    }
+   
+}
+/*---------------------
+ Media Query End
+-----------------------*/
