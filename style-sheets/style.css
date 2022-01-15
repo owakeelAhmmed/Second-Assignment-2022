@@ -176,3 +176,35 @@ textarea {
 /*--------------------------- 
 contsct section End 
 -----------------------------*/
+
+/*---------------------
+ Footer Section Start 
+---------------------*/
+footer.common-section {
+    background-color: #30336b;
+    height: 170px;
+}
+.footer-title {
+    margin-top: 30px;
+}
+.container-box h2, h3, p {
+    color: #f0f0f0;
+    text-align: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.common{
+    color: #e84393;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+/*---------------------
+ Footer Section End 
+---------------------*/
