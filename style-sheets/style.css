@@ -213,6 +213,21 @@ footer.common-section {
     .common-section{
         width: 100%;
     }
+    .log h1 {
+        margin-left: -124px;
+    }
+   
+    .container-detail{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .camara-img img {
+        width: 246px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
     .popular-cards{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -235,6 +250,7 @@ footer.common-section {
         width: 200px;
         margin-left: -80px;
     }
+
     
   
 
